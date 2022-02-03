@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin-top: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: auto;
+        margin-right: auto;  
+        background-color: #e6e4d9;
+    }
+    #mainHeader{
+        background-color: #a593c2;
+    }
+    nav {
+            height: 60px;
+            width: 1000px;
+            margin: 0 auto 20px;
+        }
+    #leftMenu {
+        float: left;
+        width: 30%;
+        margin-bottom: 20px;
+        }
+    .searchbox {
+        padding: 5px;
+        margin: 10px 10px;
+        width: 200px;
+        }
+        #main {
+            float: right;
+            width: 70%;
+            margin-bottom: 20px;
+        }
+        footer {
+            clear: both;
+            width: 100%;
+        }
+        
+        header,
+        section,
+        footer,
+        aside,
+        nav,
+        main,
+        article,
+        figure{
+            display: block;
+        }
+        table,
+        td,
+        th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+</style>
+<body>
+    <header id="mainHeader">
+        <nav>
+            <img src="images/pie.svg" height="55" alt="">
+        </nav>
+    </header>
+
+    <div style="width:1000px;margin-left: auto;margin-right: auto;">
+        <aside id="leftMenu">
+            <img src="images/bethanylogo.png" alt="">
+            <header><h4 style="text-align: center;">Browse our pies</h4></header>
+            <input type="search" class="searchbox" placeholder="Search our pie">
+        </aside>
+
+        <main id="main">
+            <table border="1">
+                <caption>
+                    Our delicious selection of pies for you to enjoy!
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Images</th>
+                        <th>Pie name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><img src="images/product/cheesecake.jpg" width="100" alt=""></td>
+                    <td>Cheese cake</td>
+                    <td>Plain cheese cake. Plain pleasure.</td>
+                    <td>$12.95</td>
+                    <td>View details</td>
+                </tr>
+                <tr>
+                    <td><img src="images/product/applepie.jpeg" width="100"></td>
+                    <td>Apple pie</td>
+                    <td>Our famous apple pie</td>
+                    <td>$14.95</td>
+                    <!-- <td><a href="applepie.html">View details</a></td> -->
+                    <td><a href="applepie.html" target="_blank">View details</a></td>
+                </tr>
+                <tr>
+                    <td><img src="images/product/cranberrypie.jpeg" width="100"></td>
+                    <td>Cranberry pie</td>
+                    <td>A Christmas favorite</td>
+                    <td>$18.95</td>
+                    <td>View details</td>
+                </tr>
+                <tr>
+                    <td><img src="images/product/cherrypie.jpeg" width="100"></td>
+                    <td>Cherry pie</td>
+                    <td>A summer classic!</td>
+                    <td>$18.95</td>
+                    <td>View details</td>
+                </tr>
+                <tr>
+                    <td><img src="images/product/peachpie.jpeg" width="100"></td>
+                    <td>Peach pie</td>
+                    <td>Sweet as peach</td>
+                    <td>$18.95</td>
+                    <td>View details</td>
+                </tr>
+                <tr>
+                    <td><img src="images/product/pumpkinpie.jpeg" width="100"></td>
+                    <td>Pumpkin pie</td>
+                    <td>Our Halloween favorite</td>
+                    <td>$18.95</td>
+                    <td>View details</td>
+                </tr>
+                <tr>
+                    <td><img src="images/product/christmasapplepie.jpeg" width="100"></td>
+                    <td>Christmas apple pie</td>
+                    <td>Happy holidays with this pie!</td>
+                    <td>$19.95</td>
+                    <td>View details</td>
+                </tr>
+                <tr>
+                    <td><img src="images/product/blueberrycheesecake.jpeg" width="100"></td>
+                    <td>Blueberry cheese cake</td>
+                    <td>You'll love it!</td>
+                    <td>$17.95</td>
+                    <td>View details</td>
+                </tr>
+                <tr>
+                    <td><img src="images/product/rhubarbpie.jpeg" width="100"></td>
+                    <td>Rhubarb Pie</td>
+                    <td>My God, so sweet!</td>
+                    <td>$21.95</td>
+                    <td>View details</td>
+                </tr>
+                <tr>
+                    <td><img src="images/product/strawberrypie.jpeg" width="100"></td>
+                    <td>Strawberry Pie</td>
+                    <td>Our delicious strawberry pie!</td>
+                    <td>$18.95</td>
+                    <td>View details</td>
+                </tr>
+                <tr>
+                    <td><img src="images/product/strawberrycheesecake.jpeg" width="100"></td>
+                    <td>Strawberry Cheese Cake</td>
+                    <td>One of the best cheese cakes you'll ever find!</td>
+                    <td>$18.95</td>
+                    <td>View details</td>
+                </tr>
+            </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <p>Our address is <address>Bethany's Pie Shop - Bakery Street 555 Brussels Belgium</address></p>
+            <small>2020 Bethany's Pie Shop - All rights reserved</small>
+        </footer>
+    </div>
+
+</body>
+</html>
