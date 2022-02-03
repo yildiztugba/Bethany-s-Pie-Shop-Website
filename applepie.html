@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
     <title>Document</title>
 </head>
+<script>
+    function save(){
+        localStorage.setItem("applepie",true);
+    }
+
+    window.onload = function() {
+        var favorite = document.getElementById('favorite');
+        if(window.localStorage){
+            var storage = window.localStorage;
+            if(storage.getItem('applepie')== 'true'){
+                favorite.innerHTML= "Apple pie is one of your favorites";
+            }
+        }
+    }
+</script>
 <body>
     <header id="mainHeader">
         <nav>
@@ -24,9 +39,9 @@
             <header><h4 style="text-align: center;">Browse our pies</h4></header>
             <ul>
                 <li><a href="pie.html">All pies</a></li>
-                <li><a href="pie.html">Cheesecakes</a></li>
-                <li><a href="pie.html">Fruit pies</a></li>
-                <li><a href="pie.html">Seasonal pies</a></li>
+                <li><a href="cheesecakes.html">Cheesecakes</a></li>
+                <li><a href="fruitpie.html">Fruit pies</a></li>
+                <li><a href="#promos">Promotions</a></li>
                 
             </ul>
             <input type="search" class="searchbox" placeholder="Search our pie">
